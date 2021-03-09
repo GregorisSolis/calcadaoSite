@@ -1,0 +1,138 @@
+@media only screen and (max-width: 600px){
+    
+    .container_productos{
+        width: 80%;
+        margin: auto;
+        border: 1px solid #000;
+        border-radius: 12px;
+        margin: 0 auto 3% auto
+    }
+
+    .container_items .precio{
+        margin: 28% auto 0% auto;
+    }
+
+    .tittle_tipo{
+        display: flex;
+        align-items: center;
+        max-width: 80%;
+        padding: 3%;
+        margin: 0 auto;
+        color: #868683;
+    }
+
+    .container_items{
+        box-sizing: border-box;
+        margin: 2% auto;
+        display: grid;
+        grid-template-columns: 64% 44%;
+    }
+    
+    .container_items h2{
+        margin: 0;
+    }
+
+    .container_items p{
+       font-size: 14px;
+       color: #4b4b42;
+       margin: 3% auto;
+    }
+
+    .subcontainer_nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .subcontainer_nav img{
+        margin: 0 !important;
+    }
+
+    .container_nav a{
+        border: 1px solid #fff;
+        padding: 2% 3%;
+        border-radius: 28px;
+        font-size: 13px;
+    }
+    
+    .container_nav h3{
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .name_items{
+        font-size: 18px;
+    }
+
+    .container_items img{
+        border-radius: 12px;
+    }
+
+    .container_precio_items{
+        text-align: center;
+    }
+
+    .precio{
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .precio_A{
+        font-size: 23px;
+    }
+
+    .precio h2{
+        margin: 0;
+    }
+
+    .precio_B{
+        font-size: 16px;
+    }
+
+    .precios_pizzas{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 4% 6%;
+    }
+    .tittle_tamanho{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .info{
+        background-color: #640201;
+        margin: 4% auto;
+        width: 80%;
+        color: #fff;
+        border-radius: 25px;
+        font-size: 12px;
+        text-align: center;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /**/
+
+    .linea_divicao{
+        border-bottom: 1px solid #000;
+        max-width: 95%;
+        margin: 4% auto;
+    }
+
+    .linea_divicao_colums{
+        border-right: 1px solid #000;
+        height: 70px;
+    }
+
+    .linea_tittle{
+        border-left: 5px solid #d3d4ce;
+        height: 60px;
+        margin-right: 5%;
+    }
+}
